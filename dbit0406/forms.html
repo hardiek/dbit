@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+    </head>
+    <body>
+        <h1>forms</h1>
+        <FORm method="get" save="save.html">
+            <label>firstname</label>
+            <input type="text" name="fname" placeholder="firstname">
+            <br>
+            <label>lastname</label>
+            <input type="text" name="sname" placeholder="secondname">
+            <br>
+            <label>phonenumber</label>
+            <br>
+            country code<input type="text" name="code"/>
+            <br>
+            number <input type="number" name="phone no" placeholder="1233455666"/>
+            <br>
+            <label>email</label>
+            <input type="email" name="email" placeholder="info@kca.ac.ke"/>
+            <br>
+            <label>dateofbirth</label>
+            <input type="date" name="dob"/>
+            <br>
+            <label>whats your favourite color</label>
+            <input type="color" name="red">
+            <br>
+            <input type="hidden" name="spy" value="wow they clicked it"/>
+            <br>
+            <label>input your password</label>
+            <input type="password" name="pass"/>
+            <br>
+            <label>gender</label>
+            <br>
+            male<input type="radio" name="gender" value="male" checked/>
+            female<input type="radio" name="gender" value="female" checked/>
+            others<input type="radio" name="gender" value="others" checked/>
+            <br>
+            <label>units</label>
+            <br>
+            internet app programing<input type="checkbox" name="lap" value="iap" checked/>
+            c programing<input type="checkbox" name="cp" value="c" checked/>
+            java programing<input type="checkbox" name="jpr" value="java" checked/>  
+            <br>
+            <input type="reset" value="reset/clear" name="rest"/>
+            <input type="submit" value="submit" name="submit"/>
+            <br>
+            <label>selectyourcourse/label>
+                <br>
+                <select name="course">
+                <option value="DBIT">DBIT</option>
+                <option value="DIT">DIT</option>
+                <option value="BIT">BIT</option>
+                <option value="CBIT">CBIT</option>
+                <option value="CIT">CIT</option>
+                </select>
+                <br>
+                <label>select yourcourse multiple select</label>
+                <br>
+                <select name="course multiple" multiple size="6">
+                 <option value="DBIT">DBIT</option>
+                 <option value="DIT">DIT</option>
+                 <option value="BIT">BIT</option>
+                 <option value="CBIT">CBIT</option>
+                 <option value="CIT">CIT</option>
+                </select>
+     </FORm>
+    </body>
+</html>
